@@ -57,6 +57,7 @@ class App extends Component {
       data.sort(() => Math.random() - 0.5);
       
       let score = this.state.score + 1;
+      
 
       this.setState({
         data,
